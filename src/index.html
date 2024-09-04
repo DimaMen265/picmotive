@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Pinterest</title>
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Mini Pinterest</h1>
+
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          class="search-input"
+        />
+
+        <button type="submit" class="search-button">Search🔎</button>
+      </form>
+
+      <a href="https://www.pinterest.com/" target="_blank" class="pinterest"
+        >Pinterest</a
+      >
+    </header>
+
+    <main>
+      <div class="gallery"></div>
+
+      <div class="pagination">
+        <button type="button" class="double-prev buttons-pagination">
+          <svg width="24" height="24" class="icon-left">
+            <use href="./images/icons.svg#icon-arrow-double-left"></use>
+          </svg>
+        </button>
+
+        <button type="button" class="prev buttons-pagination">
+          <svg width="24" height="24" class="icon-left">
+            <use href="./images/icons.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+
+        <div class="buttons-numbers"></div>
+
+        <button type="button" class="next buttons-pagination">
+          <svg width="24" height="24" class="icon-right">
+            <use href="./images/icons.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+
+        <button type="button" class="double-next buttons-pagination">
+          <svg width="24" height="24" class="icon-right">
+            <use href="./images/icons.svg#icon-arrow-double-right"></use>
+          </svg>
+        </button>
+      </div>
+    </main>
+
+    <button type="button" class="back-to-top" id="back-to-up">
+      <svg width="24" height="24">
+        <use href="./images/icons.svg#icon-arrow-back"></use>
+      </svg>
+    </button>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
