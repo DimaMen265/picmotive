@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "picmotive",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://DimaMen265.github.io/goit-js-hw-11",
+  "homepage": "https://DimaMen265.github.io/picmotive",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /picmotive/"
   },
   "repository": {
     "type": "git",
